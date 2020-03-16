@@ -27,7 +27,7 @@ if __name__=='__main__':
 	training_set_scaled = sc.fit_transform(training_set) # apply the transformation
 	
 
-	# Create a data structure with 60 timesteps and 1 output
+	# Create a data structure with 59 timesteps and 1 output
 	X_train = []
 	Y_train = []
 
@@ -105,7 +105,3 @@ if __name__=='__main__':
 	plt.ylabel('Google Stock Price')
 	plt.legend()
 	plt.show()
-
-
-	
-
